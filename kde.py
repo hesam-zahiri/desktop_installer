@@ -19,9 +19,6 @@ desktop_list = f"""
 print(desktop_list)
 
 
-# از کاربر بپرسید که کدام گزینه را انتخاب می کند
-
-
 import subprocess
 import os
 
@@ -29,7 +26,7 @@ import os
 distribution_name = subprocess.check_output(["lsb_release", "-i"]).decode("utf-8").strip()
 
 # Get a Linux distribution from the user
-distribution = input("Choose a desktop to install.(Choose the desired number.): ")
+distribution = input("Choose your distribution base.(Choose the desired number.): ")
 
 # If the distribution is Archbase, run the codes for installing kde Desktop on Arch
 
