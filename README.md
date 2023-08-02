@@ -10,7 +10,7 @@ git clone https://github.com/hesam-zahiri/desktop_installer.git
 cd desktop_installer
 ```
 ```
-python3 (The name of the desktop you want to install).py
+python3 (The name of the <<<<<<<<<<<<<desktop you want to install).py
 ```
 # To install cinnamon Desktop:
 ```
