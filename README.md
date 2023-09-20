@@ -14,7 +14,7 @@ python3 (The name of the desktop you want to install).py
 ```
 # To install cinnamon Desktop:
 ```
-python3 cinamon.py
+python3 cinnamon.py
 ```
 - Choose your distribution base.
 # To install deepin Desktop:
