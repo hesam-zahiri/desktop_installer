@@ -35,7 +35,7 @@ if distribution == "a":
   subprocess.Popen(["sudo", "pacman", "-Sy", "plasma"]).wait()
   subprocess.Popen(["sudo", "systemctl", "enable", "sddm"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "sddm"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If the distribution is Debian Base, run the codes for installing the kde desktop on Debian
 
@@ -44,7 +44,7 @@ elif distribution == "d":
   subprocess.Popen(["sudo", "apt-get", "install", "kde-plasma-desktop"]).wait()
   subprocess.Popen(["sudo", "systemctl", "enable", "sddm"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "sddm"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If it is Red Hat Base distribution, run the codes related to installing kde desktop on Red Hat
 
@@ -53,7 +53,7 @@ elif distribution == "r":
   subprocess.Popen(["sudo", "yum", "groupinstall", "KDE"]).wait()
   subprocess.Popen(["sudo", "systemctl", "set-default", "graphical.target"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "sddm"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If it's another distribution, send an error message
 
