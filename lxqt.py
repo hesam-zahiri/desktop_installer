@@ -51,7 +51,7 @@ elif distribution == "r":
   subprocess.Popen(["sudo", "yum", "install", "lxqt"]).wait()
   subprocess.Popen(["sudo", "systemctl", "enable", "lxqt"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "lxqt"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If it's another distribution, send an error message
 
