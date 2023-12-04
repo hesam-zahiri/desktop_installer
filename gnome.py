@@ -34,7 +34,7 @@ if distribution == "a":
   subprocess.Popen(["sudo", "pacman", "-Sy", "gnome-shell"]).wait()
   subprocess.Popen(["sudo", "systemctl", "enable", "gnome-session"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "gnome-session"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If the distribution is Debian Base, run the codes for installing the GNOME desktop on Debian
 
@@ -42,7 +42,7 @@ elif distribution == "d":
   print("Your distribution is debian base.")
   subprocess.Popen(["sudo", "apt-get", "install", "gnome-shell"]).wait()
   subprocess.Popen(["sudo", "update-alternatives", "-s", "x-session-manager", "/usr/bin/gnome-session"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
   
 # If it is Red Hat Base distribution, run the codes related to installing GNOME desktop on Red Hat
 
@@ -51,7 +51,7 @@ elif distribution == "r":
   subprocess.Popen(["sudo", "yum", "install", "gnome-shell"]).wait()
   subprocess.Popen(["sudo", "systemctl", "enable", "gnome-session"]).wait()
   subprocess.Popen(["sudo", "systemctl", "start", "gnome-session"]).wait()
-  subprocess.Popen(["sudo", "rebbot"]).wait()
+  subprocess.Popen(["sudo", "reboot"]).wait()
 
 # If it's another distribution, send an error message
 else:
