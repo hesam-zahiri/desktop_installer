@@ -44,7 +44,3 @@ python3 lxqt.py
 - choose your distribution base.
 
 
-
-```
-vless://0a23c902-fdee-4ed9-9b19-d3f2212cf934@172.67.171.12:443?mode=multi&security=tls&encryption=none&fp=firefox&type=grpc&serviceName=Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER&sni=doogh.kanal-tel-nufilter.store#%F0%9F%95%B3%EF%B8%8F
-```
